@@ -13,7 +13,11 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  
+  key = []
+  attendees.each do |name|
+    key.push("Hello, #{name}! You'll be assigned to room #{key[key.size+1]}!")
+  end
+  key #return this
 end
 
 def printer(attendees)
