@@ -17,7 +17,7 @@ def assign_rooms(attendees)
   count = 1
   attendees.each do |name|
     key.push("Hello, #{name}! You'll be assigned to room #{count}!")
-    count=+
+    count = count + 1
   end
   key #return this
 end
